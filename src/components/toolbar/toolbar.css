@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 2px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.item {
+    box-sizing: border-box;
+    margin: 2px 2px 2px 5px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid black;
+    user-select: none;
+}
+
+.item-active {
+    background-color: black;
+    color: white;
+}

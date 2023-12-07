@@ -1,0 +1,19 @@
+.projects-list {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1000px;
+    justify-content: center;
+}
+
+.project {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+    flex-grow: 0;
+    
+    
+        
+}
+
